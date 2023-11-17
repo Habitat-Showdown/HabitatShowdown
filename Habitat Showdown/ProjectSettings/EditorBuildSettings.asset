@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/RoomList.unity
+    guid: 3dd48a89d6d352649b917442f1e0de08
+  - enabled: 1
+    path: Assets/Scenes/CreateRoom.unity
+    guid: b995c94656afea9459d6dc74a7be8c05
+  - enabled: 1
+    path: Assets/Scenes/SelectChar.unity
+    guid: 8dc99ac2f8a043049a0ae53d547796cf
+  - enabled: 1
+    path: Assets/Scenes/WaitRoom.unity
+    guid: f7c844e4cbb4c8b4982f1c27914afd0c
   m_configObjects: {}
