@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public enum SceneNames { FLoading = 0, Intro, }
+public enum SceneNames { FLoading = 0, Intro, Lobby, }
 
 public class Utils : MonoBehaviour
 {

@@ -12,7 +12,7 @@ public class UITextInteraction : MonoBehaviour, IPointerEnterHandler, IPointerEx
     private class OnClickEvent : UnityEvent {}
     
     // Text UI를 클릭했을 때 호출하고 싶은 메소드 등록
-    private OnClickEvent onClickEvent; 
+    [SerializeField] private OnClickEvent onClickEvent; 
     
     // 색상이 바뀌고 터치가 되는 TextMeshProUGUI
     [SerializeField] private TextMeshProUGUI text;

@@ -68,7 +68,43 @@ namespace _2.Scripts.UI.Login
                 // 계정 생성 성공
                 if (callback.IsSuccess())
                 {
+                    // Email 정보 업데이트
+                    Backend.BMember.UpdateCustomEmail(inputFieldEmail.text, callback =>
+                    {
+                        if (callback.IsSuccess())
+                        {
+                            SetMessage($"계정 생성 성공. {inputFieldID.text}님 환영합니다.");
+                            
+                            // Lobby 씬으로 이동
+                            Utils.LoadScene(SceneNames.Lobby);
+                        }
+                        else
+                        {
+                            string message = String.Empty;
 
+                            switch (int.Parse(callback.GetStatusCode()))
+                            {
+                                case 409 : // 중복된 custemId가 존재하는 경우
+                                    message = "이미 존재하는 아이디입니다.";
+                                    break;
+                                case 403: // 차단당한 디바이스일 경우
+                                case 401: // 프로젝트 상태가 '점검'일 경우
+                                case 400: // 디바이스 정보가 null일 경우
+                                default:
+                                    message = callback.GetMessage();
+                                    break;
+                            }
+
+                            if (message.Contains("아이디"))
+                            {
+                                GuideForIncorrectlyEnteredData(imageID, message);
+                            }
+                            else
+                            {
+                                SetMessage(message);
+                            }
+                        }
+                    });
                 }
                 // 계정 생성 실패
                 else
