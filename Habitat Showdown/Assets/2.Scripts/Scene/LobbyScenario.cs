@@ -11,7 +11,13 @@ public class LobbyScenario : MonoBehaviour
     private void Awake()
     {
         user.GetUserInfoFromBackend();
+    }
 
+    public void FirstLogin()
+    {
+        print(UserInfo.Data.nickname);
+        print(UserInfo.Data.gamerId);
+        
         if (UserInfo.Data.nickname == UserInfo.Data.gamerId)
         {
             backPanel.SetActive(true);
