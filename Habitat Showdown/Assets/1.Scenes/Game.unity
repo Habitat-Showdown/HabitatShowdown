@@ -33395,9 +33395,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BindingMode: 1
   m_FollowOffset: {x: 0, y: 0, z: -10}
-  m_XDamping: 0.75
-  m_YDamping: 0.75
-  m_ZDamping: 0.75
+  m_XDamping: 0.5
+  m_YDamping: 0.5
+  m_ZDamping: 0.5
   m_AngularDampingMode: 0
   m_PitchDamping: 0
   m_YawDamping: 0
@@ -66416,6 +66416,7 @@ GameObject:
   - component: {fileID: 1657347334}
   - component: {fileID: 1657347331}
   - component: {fileID: 1657347333}
+  - component: {fileID: 1657347336}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -66561,8 +66562,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8c9ce654f737249bba74739de25ea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputVec: {x: 0, y: 0}
-  speed: 5
 --- !u!70 &1657347334
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -66619,6 +66618,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1657347336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657347328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf2634bee1848ac8256d098bcdf76d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 0
+  currentHP: 0
+  damage: 0
+  moveSpeed: 5
 --- !u!1 &1729580037
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9752b0c8e144801967e6897679604b, type: 3}
+  m_Name: vHierarchy Data
+  m_EditorClassIdentifier: 
+  sceneDatasByGuid:
+    keys:
+    - 31571c19ee2d75440bcbd47cb1c888c8
+    values:
+    - goDatasByGlobalId:
+        keys:
+        - GlobalObjectId_V1-2-31571c19ee2d75440bcbd47cb1c888c8-674126321-0
+        - GlobalObjectId_V1-2-31571c19ee2d75440bcbd47cb1c888c8-1657347328-0
+        - GlobalObjectId_V1-2-31571c19ee2d75440bcbd47cb1c888c8-1729580037-0
+        - GlobalObjectId_V1-2-31571c19ee2d75440bcbd47cb1c888c8-327606106-0
+        - GlobalObjectId_V1-2-31571c19ee2d75440bcbd47cb1c888c8-1553068336-0
+        - GlobalObjectId_V1-2-31571c19ee2d75440bcbd47cb1c888c8-694890195-0
+        - GlobalObjectId_V1-2-31571c19ee2d75440bcbd47cb1c888c8-898274332-0
+        - GlobalObjectId_V1-2-31571c19ee2d75440bcbd47cb1c888c8-613775045-0
+        - GlobalObjectId_V1-2-31571c19ee2d75440bcbd47cb1c888c8-566630399-0
+        - GlobalObjectId_V1-2-31571c19ee2d75440bcbd47cb1c888c8-1373190128-0
+        - GlobalObjectId_V1-2-31571c19ee2d75440bcbd47cb1c888c8-396955858-0
+        values:
+        - iColor: 4
+          icon: 
+        - iColor: 5
+          icon: AvatarMask On Icon
+        - iColor: 8
+          icon: Favorite
+        - iColor: 8
+          icon: Settings Icon
+        - iColor: 2
+          icon: MeshCollider Icon
+        - iColor: 4
+          icon: 
+        - iColor: 2
+          icon: 
+        - iColor: 2
+          icon: 
+        - iColor: 2
+          icon: 
+        - iColor: 2
+          icon: 
+        - iColor: 2
+          icon: 
+      goDatasByInstanceId:
+        keys: 847a0000ea7a0000fc7a0000527a0000e47a00008a7a0000a27a0000747a0000647a0000d07a0000587a0000
+        values:
+        - iColor: 4
+          icon: 
+        - iColor: 5
+          icon: AvatarMask On Icon
+        - iColor: 8
+          icon: Favorite
+        - iColor: 8
+          icon: Settings Icon
+        - iColor: 2
+          icon: MeshCollider Icon
+        - iColor: 4
+          icon: 
+        - iColor: 2
+          icon: 
+        - iColor: 2
+          icon: 
+        - iColor: 2
+          icon: 
+        - iColor: 2
+          icon: 
+        - iColor: 2
+          icon: 
